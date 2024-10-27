@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Colors Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flag Colors Quiz</h1>
+        
+        <div class="score-display">
+            Score: 0
+        </div>
+        
+        <div class="colors-display">
+            <!-- Colors will be added dynamically -->
+        </div>
+
+        <p>Which country's flag has these colors?</p>
+        
+        <div class="options">
+            <!-- Options will be added dynamically -->
+        </div>
+
+        <button id="actionButton" class="check-btn">Check</button>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', initializeQuiz);
+    </script>
+</body>
+</html>
